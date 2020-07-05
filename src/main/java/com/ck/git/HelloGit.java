@@ -11,6 +11,7 @@ public class HelloGit {
 		System.out.println("Edit from Eclipse.");
 		System.out.println("Edit in Github.");
 		System.out.println("Add SSH.");
+		System.out.println("Add SSH2.");
 	}
 
 }
