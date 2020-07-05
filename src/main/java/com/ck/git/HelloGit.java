@@ -9,6 +9,7 @@ public class HelloGit {
 		System.out.println("Add from master.");
 		System.out.println("Add from branch1111.");
 		System.out.println("Edit from Eclipse.");
+		System.out.println("Edit in Github.");
 	}
 
 }
