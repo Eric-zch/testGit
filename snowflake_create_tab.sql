@@ -1,0 +1,28 @@
+USE ROLE SYSADMIN;
+USE WAREHOUSE COMPUTE_WH;
+USE DATABASE DEMO_DB;
+USE SCHEMA PUBLIC;
+
+CREATE SEQUENCE COLOR_UID_SEQ
+START 1
+INCREMENT 1
+COMMENT = 'Give a new unique id to each new color entered in Colors table';
+
+CREATE TABLE COLORS (
+  COLOR_UID NUMBER(8),
+  COLOR_NAME VARCHAR(50)
+);
+
+INSERT INTO COLORS(COLOR_UID,COLOR_NAME)
+VALUES
+
+  (COLOR_UID_SEQ.nextval,'Red'),
+  (COLOR_UID_SEQ.nextval,'Orange'),
+  (COLOR_UID_SEQ.nextval,'Yellow'),
+  (COLOR_UID_SEQ.nextval,'Green'),
+  (COLOR_UID_SEQ.nextval,'Blue'),
+  (COLOR_UID_SEQ.nextval,'Indigo'),
+  (COLOR_UID_SEQ.nextval,'Violet')
+;
+
+SELECT * FROM COLORS;
