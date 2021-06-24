@@ -1,0 +1,9 @@
+snowsql
+https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/windows_x86_64/index.html 
+
+odbc driver
+https://sfc-repo.snowflakecomputing.com/odbc/index.html
+
+jdbc driver
+https://repo1.maven.org/maven2/net/snowflake/snowflake-jdbc/
+
