@@ -1,0 +1,20 @@
+Performance optimization considerations
+
+Use dedicated virtual warehouses
+Segregate the virtual warehouses for different workloads
+(one virtual house) = (one business scenario, ex: ETL/Data Science/BI/Ad-hoc) = (one kind of workload/queries) = (a group of users, set default virtual house) = (one role)
+Do not go too fine grained
+
+Scale up for known large workloads
+Sacle the size of the virtual warehouse according to known patterns
+
+Scale out for unknown & unexpected workloads
+Auto spawn virtual warehouse based on workloads
+
+Design to maximize cache usage
+Caching is automatic, but usage can be maximized
+
+Use cluster keys to partition large tables
+For tables that have very large data use cluster keys to improve query performance
+
+
