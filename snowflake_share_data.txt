@@ -1,0 +1,5 @@
+Data can be shared without requiring an extract of data (similar to how Cloning works).
+Shared data can be used by the consumers by using their own compute resources
+Non snowflake users can also consume shared data through Reader accounts, they use the Producer's compute & resources.
+Shared data is only read only to consumers
+Instantaneous  Up-to-date  Secure & Governed
